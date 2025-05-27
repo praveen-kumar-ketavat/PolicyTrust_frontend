@@ -25,7 +25,7 @@ import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class AdminUIController {
-	private final String BASE_URL = "http://localhost:8030"; // Backend service
+	private final String BASE_URL = "divine-prosperity-production.up.railway.app"; // Backend service
 
 	@Autowired
 	private RestTemplate restTemplate;
